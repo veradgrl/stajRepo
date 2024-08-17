@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/registration.png" type="image/png" >
+    <title>Kayıt Formu</title>
+   
+</head>
+<body style="padding: 10px;"> 
+    <div style="display: flex; align-items: center;justify-content: baseline;" >
+    <a href="deneme.html">
+        <img src="img/back.png" alt="turn back" title="Main Page" style="width: 20px;">
+    </a>
+    <h2 style="margin-left: 20px;">Kayıt Formu</h2>
+</div>
+   <form action="">
+    <label for="name">Adınız : </label>
+    <input type="text" id="name" placeholder="Elle" style="border: 0px;" required>
+<br><br>
+    <label for="surname">Soyadınız :</label>
+    <input type="text" id="surname" placeholder="Woods" style="border: 0px;" required>
+<br><br>
+    <label for="mail">Email adresiniz :</label>
+    <input type="email" id="mail" placeholder="ellewoods@gmail.com" style="border: 0px;" required>
+<br><br>
+    <label for="password">Şifreniz :</label>
+    <input type="password" id="password" placeholder="******" maxlength="6" minlength="6" style="border: 0px;" required>
+<br><br>
+<label for="gender">Cinsiyetiniz :</label>
+    <label for="female">Kadın</label>  
+    <input type="radio" id="female" name="gender" required>
+    <label for="male">Erkek</label>
+    <input type="radio" id="male" name="gender" required>
+<br><br>
+<input type="reset">
+<input type="submit">
+
+</body>
+</html>
